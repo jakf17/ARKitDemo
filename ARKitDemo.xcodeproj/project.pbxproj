@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6326A6711F2B3A4B0033A73A /* ARSCNViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6326A6701F2B3A4B0033A73A /* ARSCNViewViewController.m */; };
+		6326A6731F2B3ABF0033A73A /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6326A6721F2B3ABF0033A73A /* Models.scnassets */; };
 		6370CFB71F2B312E000F6FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6370CFB61F2B312E000F6FCD /* main.m */; };
 		6370CFBA1F2B312E000F6FCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6370CFB91F2B312E000F6FCD /* AppDelegate.m */; };
 		6370CFBD1F2B312E000F6FCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6370CFBC1F2B312E000F6FCD /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6326A66F1F2B3A4B0033A73A /* ARSCNViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSCNViewViewController.h; sourceTree = "<group>"; };
+		6326A6701F2B3A4B0033A73A /* ARSCNViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSCNViewViewController.m; sourceTree = "<group>"; };
+		6326A6721F2B3ABF0033A73A /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		6370CFB21F2B312E000F6FCD /* ARKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6370CFB61F2B312E000F6FCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6370CFB81F2B312E000F6FCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,7 +110,10 @@
 				6370CFB91F2B312E000F6FCD /* AppDelegate.m */,
 				6370CFBB1F2B312E000F6FCD /* ViewController.h */,
 				6370CFBC1F2B312E000F6FCD /* ViewController.m */,
+				6326A66F1F2B3A4B0033A73A /* ARSCNViewViewController.h */,
+				6326A6701F2B3A4B0033A73A /* ARSCNViewViewController.m */,
 				6370CFBE1F2B312E000F6FCD /* Main.storyboard */,
+				6326A6721F2B3ABF0033A73A /* Models.scnassets */,
 				6370CFC11F2B312E000F6FCD /* Assets.xcassets */,
 				6370CFC31F2B312E000F6FCD /* LaunchScreen.storyboard */,
 				6370CFC61F2B312E000F6FCD /* Info.plist */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6370CFC51F2B312E000F6FCD /* LaunchScreen.storyboard in Resources */,
+				6326A6731F2B3ABF0033A73A /* Models.scnassets in Resources */,
 				6370CFC21F2B312E000F6FCD /* Assets.xcassets in Resources */,
 				6370CFC01F2B312E000F6FCD /* Main.storyboard in Resources */,
 			);
@@ -275,6 +284,7 @@
 			files = (
 				6370CFBD1F2B312E000F6FCD /* ViewController.m in Sources */,
 				6370CFBA1F2B312E000F6FCD /* AppDelegate.m in Sources */,
+				6326A6711F2B3A4B0033A73A /* ARSCNViewViewController.m in Sources */,
 				6370CFB71F2B312E000F6FCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +517,7 @@
 				6370CFE11F2B312E000F6FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6370CFE21F2B312E000F6FCD /* Build configuration list for PBXNativeTarget "ARKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				6370CFE41F2B312E000F6FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6370CFE51F2B312E000F6FCD /* Build configuration list for PBXNativeTarget "ARKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				6370CFE71F2B312E000F6FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
